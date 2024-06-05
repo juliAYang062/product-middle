@@ -16,7 +16,7 @@ if(isset($_SESSION["user"])){
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <?php include("../css.php") ?>
+    <?php include("css.php") ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -69,7 +69,7 @@ if(isset($_SESSION["user"])){
 </head>
 
 <body>
-    <div class="vh-100 d-flex justify-content-center align-items-center  ">
+    <div class="vh-100 d-flex justify-content-center align-items-center ">
         <div class="login-panel">
             <img class="logo" src="images/logo.svg" alt="">
             <h2 class="text-shadow-sm">drinking tea...</h2>

@@ -204,7 +204,7 @@ if ($result->num_rows > 0) {
             </table>
 
             <div class="py-2 d-flex ">
-              <a class="btn btn-dark  me-3 " title="編輯使用者" href="user-edit.php?id=<?= $row["id"] ?>"><i class="fa-solid fa-pen-to-square">&nbsp修改</i></a>
+              <a class="btn btn-dark me-3 " title="編輯使用者" href="user-edit.php?id=<?= $row["id"] ?>"><i class="fa-solid fa-pen-to-square">&nbsp修改</i></a>
               <!-- 修改按鈕 -->
 
               <button class="btn btn-danger" title="刪除使用者" data-bs-toggle="modal" data-bs-target="#deleteModal"><i class="fa-solid fa-trash-can">&nbsp刪除</i></button>

@@ -12,7 +12,10 @@ $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 // var_dump($row);//確認抓的到資料
 
-
+$sql = "SELECT * FROM locations WHERE id = $id AND valid = 1";
+// echo $sql;
+$result = $conn->query($sql);
+$row = $result->fetch_assoc();
 
 
 
@@ -144,7 +147,7 @@ if ($result->num_rows > 0) {
                 <div class=" position-absolute top-100">
                   <input type="file" id="fileUpload" name="file" style="display: none;" onchange="displayImage(this)">
                   <!-- accept="image/*"  -->
-                  <button type="button" class="btn btn-primary" onclick="document.getElementById('fileUpload').click();">
+                  <button type="button" class="btn btn-dark" onclick="document.getElementById('fileUpload').click();">
                     選擇圖片
                   </button>
                 </div>
