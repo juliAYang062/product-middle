@@ -15,7 +15,7 @@ $date = $year . '-' . $month . '-' . $day;
 
 
 
-$photo_name
+// $photo_name
 $pic_name = $_POST["name"];
 // echo $name;
 // var_dump($_FILES["file"]);
