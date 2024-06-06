@@ -19,7 +19,7 @@ session_start();
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <?php include("css.php"); ?>
+  <?php include("css.php"); ?> 
   <style>
     body {
       background: url(images/bg.jpg);
@@ -34,19 +34,7 @@ session_start();
     button:focus {
       outline: none;
     }
-
-    .cir {
-      width: 200px;
-      height: 200px;
-      overflow: hidden;
-    }
-
-    img {
-
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  
   </style>
 </head>
 

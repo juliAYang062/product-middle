@@ -56,24 +56,7 @@ $day = $array[2];
       margin: var(--header-height) 0 0 var(--aside-witch);
     }
 
-    /* .user-image {
-       background-image: url("images/boy.png") ; 
-
-
-    } */
-    .cir {
-      width: 350px;
-      height: 350px;
-      overflow: hidden;
-    }
-
-    img {
-
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
+    </style>
 </head>
 
 <body>
@@ -155,11 +138,11 @@ $day = $array[2];
         <div class="row justify-content-center">
           <div class="col-lg-4 mt-3">
             <div class="position-relative">
-              <div class="ratio ratio-1x1 rounded-circle border border-5 overflow-hidden bg-transparent cir">
+              <div class="ratio ratio-1x1 rounded-circle border border-5 overflow-hidden bg-transparent " style="max-width: 350px;">
                 <img id="previewImage" src="images/<?= $row["images_name"] ?>">
-                <!-- <img id="previewImage" src="/upload/<? //$image["pic_name"] 
-                                                          ?>" alt="圖片預覽" class="object-fit-cover"> -->
-              </div>
+<!-- <img id="previewImage" src="/upload/<? //$image["pic_name"] 
+?>" alt="圖片預覽" class="object-fit-cover"> -->
+</div>
 
               <div class="position-absolute  top-100 start-0 ">
 

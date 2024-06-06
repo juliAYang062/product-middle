@@ -66,39 +66,7 @@ if ($result->num_rows > 0) {
     .main-content {
       margin: var(--header-height) 0 0 var(--aside-witch);
     }
-    .cir{
-      width: 350px;
-      width: 350px;
-      overflow: hidden;
-    }
-    img{
-   
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-/* 
-    img {
-      background-image: url("images/boy.png");
-      position: center;
-      background-size: 350px;
 
-
-    } */
-
-    /* .img-boy {
-      background-image: url("images/boy.png");
-      position: center;
-      background-size: 350px;
-
-    }
-
-    .img-girl {
-      background-image: url("images/girl.png");
-      position: center;
-      background-size: 350px;
-
-    } */
   </style>
 </head>
 
@@ -197,7 +165,7 @@ if ($result->num_rows > 0) {
       <div class="row justify-content-center">
         <div class="col-lg-4 mt-3">
         
-          <div class="ratio ratio-1x1 rounded-circle border border-5 overflow-hidden cir" style="position: relative; ">
+          <div class="ratio ratio-1x1 rounded-circle border border-5 overflow-hidden" style="position: relative; ">
           <img src="images/<?= $row["images_name"] ?>"  alt="">
               
           </div>
